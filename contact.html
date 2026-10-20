@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Me</title>
+        <link rel="stylesheet" href="contact.css">
+    </head>
+    
+    <body>
+        <p>Please leave your details and click submit.</p>
+        <form action="mailto:totamha23@gmail.com" method="post">
+        <!-- post so that the info stays more private -->
+            <label>Name:</label><input type="text" name="name"/><br>
+            <!-- label name:visible txt. Input type...:interactive box you type in. Name: invisible, behind the scene. Br: line break -->
+            <label>Email:</label><input type="email" name="email"/><br>
+            <label>Phone Number:</label><input type="text" name="number"/><br>
+            <label>Subject:</label><input type="text" name="Message Subject"/><br>
+            <label>Message:</label><br/>
+            <textarea placeholder="type your message here..."></textarea><br>
+
+            <input type="Submit" value="Submit"/> 
+            <!-- Used to create interactive controls so users can type or select data. 
+             Depending on how you configure it using the type attribute, an input can look/act completely differently -->
+        </form>
+             <img src="thank you.png" alt="thank you" class="End Note">
+             <!-- source, alternative text -->
+    </body>
+</html>

@@ -1,0 +1,91 @@
+
+html{
+    background-color: lch(70.63% 59.96 159.74 / 0.873);
+}
+/* that green narrow area that the body's rasberry pink flexbox is not covering */
+
+/* TOP PART OF PAGE */
+/* . is for class */
+.header {
+    /* Part that says Change Colour, Email, About, etc. */
+    /* when other webpages made, swap # in html header to real CSS file names to connect */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: oklab(51.762% 0.20028 -0.02794);
+    padding: 15px 0;
+    /* Adds space above and below links */
+}
+.header a {
+    /* Styling the text in the header */
+    text-decoration: none;
+    /* removes underline */
+    color: lch(70.63% 59.96 159.74 / 0.873);
+    font-size: larger;
+}
+.header a:hover{
+    color: oklab(45.095% -0.09418 0.03079 / 0.873);
+    /* shade darker when hovered over */
+}
+
+/* EXTRA, just gave it a go */
+.header button {
+    /* Made this with the help of AI. */
+    background-color: oklab(51.762% 0.20028 -0.02794); 
+    color: lch(70.63% 59.96 159.74 / 0.873);     
+    border: 0px solid lch(70.63% 59.96 159.74 / 0.873); /* I hid border line so button not visible */
+    padding: 6px 12px;
+    font-size:larger;
+    cursor: pointer; /* changes cursor when on button */
+    border-radius: 80px; /* Optional: if borderline showing, rounds the corners of button */
+    font-family: 'Courier New', Courier, monospace; 
+}
+.header button:hover{ 
+    /* to make Change Palette change shade when hovered over */
+    color: oklab(45.095% -0.09418 0.03079 / 0.873);}
+
+/* MIDDLE PART OF PAGE */
+.center-text {
+    /* . is for class */
+        text-align: center; 
+    }
+
+/* # is for id */
+#center-title{
+    /* the h1 heading */
+    color: lch(70.63% 59.96 159.74 / 0.873);
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace Courier;
+    margin-bottom: 10px;
+}
+.main-content {
+    /* Flexbox made from bottom of header to bottom of page */
+    display: flex;
+    flex-direction: column;
+    height: 99vh;
+    background-color: oklab(51.762% 0.20028 -0.02794);
+    justify-content: center;
+    align-items: center;
+}
+#blurb {
+    /* a wearer of many hats */
+    color: lch(70.63% 59.96 159.74 / 0.873);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.icon-box {
+    display: flex;
+    gap: 20px; }
+/* why can't the lower part (color of icons) be combined with the above icon info? */
+
+i {
+    color: lch(70.63% 59.96 159.74 / 0.873);
+    /* icon color */
+}
+
+
+    
+
+
+
